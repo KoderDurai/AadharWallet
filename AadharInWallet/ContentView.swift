@@ -500,11 +500,6 @@ struct AddressView: View {
                 Text("\(address.landmark), \(address.locality), \(address.vtc)")
                 Text("\(address.district), \(address.state), \(address.country)")
                 Text("\(address.pincode)")
-                
-                Text("Email").font(.subheadline)
-                
-                
-                Text("Address").font(.subheadline)
             }
         } else {
             VStack(alignment: .leading) {
