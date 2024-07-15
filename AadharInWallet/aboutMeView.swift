@@ -34,7 +34,7 @@ struct aboutMeSheet: View {
                 VStack {
                     ZStack {
                         Rectangle()
-                            .frame(width: .infinity)
+//                            .frame(width: .infinity)
                             .opacity(0.3)
                             .cornerRadius(30.0)
                             .foregroundStyle(Color.white)
